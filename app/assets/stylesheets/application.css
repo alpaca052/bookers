@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+h1 {
+  margin: 17.420px 0px
+}
+
+.new_book {
+  margin: 16.185px 0px;
+}
+
+p, ol, ul, td{
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+.field, .actions {
+    margin-bottom: 10px;
+}
+
+th{
+  padding: 1px 1px 5px 1px;
+}
+
+td{
+  padding: 1px 5px 7px;
+}
+
+label{
+  display: block;
+}
+
+input[type=text] {
+  padding: 1px 2px;
+}
+
+textarea{
+  padding: 1px 2px;
+}
+
+input[type=submit] {
+  padding: 1px 6px;
+}
+
+.notice {
+  color: green;
+}
+
+.error_explanation {
+  width: 450px;
+  border: 2px solid #c00;
+  padding: 7px 7px 0px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+.error_explanation ul{
+  padding-left: 40px;
+}
+
+.error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+.error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
